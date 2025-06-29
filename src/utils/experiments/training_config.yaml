@@ -1,0 +1,16 @@
+adaptive_weight: 0.1
+batch_size: 16
+bce_weight: 0.4
+device: cuda
+dice_weight: 0.5
+learning_rate: 0.0001
+log_freq: 100
+num_epochs: 100
+num_workers: 4
+optimizer: adamw
+pin_memory: true
+save_freq: 10
+scheduler: cosine
+val_freq: 1
+warmup_epochs: 10
+weight_decay: 1.0e-05

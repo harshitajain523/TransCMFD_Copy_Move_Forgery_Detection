@@ -1,0 +1,13 @@
+correlation_block_size: 16
+dropout: 0.1
+embed_dim: 768
+encoder_backbone: resnet50
+encoder_freeze: false
+encoder_pretrained: true
+input_channels: 3
+input_size: 256
+num_classes: 1
+num_heads: 12
+num_layers: 12
+patch_size: 16
+similarity_percentile: 0.95
